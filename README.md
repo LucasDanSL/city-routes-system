@@ -36,9 +36,6 @@ sistema_rotas/
 ├── main.py # Interface de linha de comando
 └── README.md # Este arquivo
 
-yaml
-Copiar código
-
 ---
 
 ## ⚙️ Como Executar
@@ -47,8 +44,6 @@ Copiar código
 2. Abra o terminal ou VS Code na pasta do projeto.  
 3. Execute:
 
-```bash
-python main.py
 Use o menu interativo para:
 
 🏙️ Cadastrar ou remover cidades
@@ -59,22 +54,19 @@ Use o menu interativo para:
 
 📝 Exemplos de Uso
 Cadastrar cidades
-text
-Copiar código
+
 Nome da cidade: Recife
 ID da cidade: 1
 Cidade Recife cadastrada com ID 1. (AVL inserida)
 Complexidade: Inserção AVL = O(log n)
 Mostrar percursos da AVL
-text
-Copiar código
+
 Pré-Ordem: [1]
 Em-Ordem: [1]
 Pós-Ordem: [1]
 Complexidade: Percursos AVL = O(n)
 Criar grafo da cidade
-text
-Copiar código
+
 Escolha cidade por ID: 1
 1 - Adicionar aresta
 2 - BFS
@@ -88,7 +80,7 @@ Peso: 5
 Aresta BairroA -> BairroB adicionada com peso 5
 Executar algoritmos de grafos
 text
-Copiar código
+
 BFS a partir de BairroA: ['BairroA', 'BairroB']
 Complexidade: BFS = O(V + E)
 
