@@ -44,29 +44,41 @@ sistema_rotas/
 2. Abra o terminal ou VS Code na pasta do projeto.  
 3. Execute:
 
+```bash
+python main.py
+```
+
 Use o menu interativo para:
 
-🏙️ Cadastrar ou remover cidades
+- 🏙️ Cadastrar ou remover cidades
+- 🌳 Visualizar percursos da AVL (pré/in/pós)
+- 🗺️ Criar e explorar grafos de bairros (BFS, DFS, Dijkstra)
 
-🌳 Visualizar percursos da AVL (pré/in/pós)
+---
 
-🗺️ Criar e explorar grafos de bairros (BFS, DFS, Dijkstra)
+## 📝 Exemplos de Uso
 
-📝 Exemplos de Uso
-Cadastrar cidades
+**Cadastrar cidades**
 
+```
 Nome da cidade: Recife
 ID da cidade: 1
 Cidade Recife cadastrada com ID 1. (AVL inserida)
 Complexidade: Inserção AVL = O(log n)
-Mostrar percursos da AVL
+```
 
+**Mostrar percursos da AVL**
+
+```
 Pré-Ordem: [1]
 Em-Ordem: [1]
 Pós-Ordem: [1]
 Complexidade: Percursos AVL = O(n)
-Criar grafo da cidade
+```
 
+**Criar grafo da cidade**
+
+```
 Escolha cidade por ID: 1
 1 - Adicionar aresta
 2 - BFS
@@ -78,9 +90,11 @@ Origem: BairroA
 Destino: BairroB
 Peso: 5
 Aresta BairroA -> BairroB adicionada com peso 5
-Executar algoritmos de grafos
-text
+```
 
+**Executar algoritmos de grafos**
+
+```
 BFS a partir de BairroA: ['BairroA', 'BairroB']
 Complexidade: BFS = O(V + E)
 
@@ -89,31 +103,36 @@ Complexidade: DFS = O(V + E)
 
 Dijkstra a partir de BairroA: {'BairroA': 0, 'BairroB': 5}
 Complexidade: Dijkstra = O(E log V)
-📊 Complexidade das Operações
-Operação	Estrutura	Complexidade
-Inserção	AVL	O(log n)
-Remoção	AVL	O(log n)
-Percursos (pré/in/pós)	AVL	O(n)
-BFS	Grafo	O(V + E)
-DFS	Grafo	O(V + E)
-Dijkstra (caminho mínimo)	Grafo	O(E log V)
+```
 
-🧠 Aprendizados
-🌳 Estruturas hierárquicas (BST, AVL)
+---
 
-🔄 Balanceamento automático de árvores (rotações AVL)
+## 📊 Complexidade das Operações
 
-🛣️ Algoritmos de grafos (BFS, DFS, Dijkstra)
+| Operação | Estrutura | Complexidade |
+|----------|-----------|--------------|
+| Inserção | AVL | O(log n) |
+| Remoção | AVL | O(log n) |
+| Percursos (pré/in/pós) | AVL | O(n) |
+| BFS | Grafo | O(V + E) |
+| DFS | Grafo | O(V + E) |
+| Dijkstra (caminho mínimo) | Grafo | O(E log V) |
 
-🧩 Recursividade e percursos
+---
 
-📊 Análise de complexidade (Big O)
+## 🧠 Aprendizados
 
-🔗 Integração de diferentes estruturas em um sistema realista
+- 🌳 Estruturas hierárquicas (BST, AVL)
+- 🔄 Balanceamento automático de árvores (rotações AVL)
+- 🛣️ Algoritmos de grafos (BFS, DFS, Dijkstra)
+- 🧩 Recursividade e percursos
+- 📊 Análise de complexidade (Big O)
+- 🔗 Integração de diferentes estruturas em um sistema realista
 
-🛠️ Requisitos
-Python 3.x
+---
 
-Bibliotecas padrão (heapq, collections)
+## 🛠️ Requisitos
 
-Nenhuma instalação externa necessária
+- Python 3.x
+- Bibliotecas padrão (heapq, collections)
+- Nenhuma instalação externa necessária
